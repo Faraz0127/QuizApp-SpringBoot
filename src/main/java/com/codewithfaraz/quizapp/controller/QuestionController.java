@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("*")
 @RestController
 @RequestMapping("question")
+@CrossOrigin(origins = "*")
 public class QuestionController {
 
     @Autowired
